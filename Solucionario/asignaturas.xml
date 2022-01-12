@@ -1,0 +1,27 @@
+<universidad>
+
+   <materia category="idioma">
+       <nombre lang="en">Ingles</nombre>
+       <docente>Mark Benedict</docente>
+       <año>2022</año>
+    </materia>
+
+   <materia category="base">
+       <nombre lang="en">Base de datos</nombre>
+       <docente>Paul Diaz</docente>
+       <año>2022</año>
+    </materia>
+
+
+    <materia category="web">
+       <nombre lang="en">Aplicaciones Web-Practica de Laboratorio</nombre>
+       <docente>Grupo 08</docente>
+       <año>2022</año>
+    </materia>
+
+   <materia category="matematica" cover="paperback">
+       <nombre lang="en">Metodos Numericos</nombre>
+       <docente>Ramiro Yerovi</docente>
+       <año>2022</año>
+    </materia>
+</universidad>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: #D1FBD7;">
+
+    <h1> Ejercicio 2 </h1>
+
+    <p>Mediante un archivo XML, analizar dicho archivo XML utilizando el siguiente Script:</p><br>
+    <p>xmlhttp = new XMLHttpRequest();</p>
+    <p>xmlhttp.open("GET", "ejemplo.xml", false);</p>
+    <p>xmlhttp.send();</p>
+    <p>xmlDoc = xmlhttp.responseXML;</p><br><br>
+
+    <h3>Resultado</h3>
+
+    <p id="archivoEjemplo"></p>
+
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "asignaturas.xml", true);
+        xhttp.send();
+
+        function myFunction(xml) {
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName('nombre')[2];
+            var y = x.childNodes[0];
+            document.getElementById("archivoEjemplo").innerHTML =
+                y.nodeValue;
+        }
+    </script>
+</body>
+
+</html>
