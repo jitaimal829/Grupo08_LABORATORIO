@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESPE>
+  <MATERIA>
+    <NAME>Tecnologias WEB</NAME>
+    <NRC>7383</NRC>
+    <YEAR>2022</YEAR>
+  </MATERIA>
+  <MATERIA>
+    <NAME>Bases de Datos</NAME>
+    <NRC>7385</NRC>
+    <YEAR>2022</YEAR>
+  </MATERIA>
+  <MATERIA>
+    <NAME>Inteligencia Artificial</NAME>
+    <NRC>7334</NRC>
+    <YEAR>2022</YEAR>
+  </MATERIA>
+  <MATERIA>
+    <NAME>Programacion</NAME>
+    <NRC>7338</NRC>
+    <YEAR>2022</YEAR>
+  </MATERIA>
+  <MATERIA>
+    <NAME>Sistemas Operativos</NAME>
+    <NRC>7335</NRC>
+    <YEAR>2022</YEAR>
+  </MATERIA>
+</ESPE>
